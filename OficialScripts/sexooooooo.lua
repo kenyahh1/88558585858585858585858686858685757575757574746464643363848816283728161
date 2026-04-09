@@ -20,7 +20,7 @@ end
 -- ============================================================
 -- BALL CANCOLLIDE GUARDIAN — sin loops pesados
 -- Garantiza CanCollide = false SIEMPRE en la ball
--- ============================================================
+
 local _ballGuardConn
 local function startBallGuard()
     if _ballGuardConn then return end
