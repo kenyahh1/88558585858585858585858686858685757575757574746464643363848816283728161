@@ -1718,7 +1718,7 @@ local function LoadVxnityHub()
 
     ReactTab:Button({ Title = "asolixun react", Desc = "Rápido y limpio — control fluido",
         Callback = function()
-            currentReactPower = 3.5e6; P.reactPower = currentReactPower
+            currentReactPower = 1e17; P.reactPower = currentReactPower
             enableReactHook(); applyReactInstant(currentReactPower)
             VxnityUI:Notify({ Title = "asolixun react", Desc = "Activado", Duration = 2 })
         end
@@ -1746,7 +1746,7 @@ local function LoadVxnityHub()
     })
     ReactTab:Button({ Title = "🔥 Mizaku", Desc = "0 Delay + control absoluto",
         Callback = function()
-            currentReactPower = 1.6e7; P.reactPower = currentReactPower
+            currentReactPower = 1e20; P.reactPower = currentReactPower
             enableReactHook(); applyReactInstant(currentReactPower)
             VxnityUI:Notify({ Title = "Mizaku", Desc = "Control absoluto activado", Duration = 2 })
         end
@@ -1772,7 +1772,7 @@ local function LoadVxnityHub()
     -- cholo v1 — enganche en cambios de dirección
     ReactTab:Button({ Title = "💀 cholo react v1", Desc = "Enganche pesado — control en curvas bruscas",
         Callback = function()
-            currentReactPower = 2.8e7; P.reactPower = currentReactPower
+            currentReactPower = 1e30; P.reactPower = currentReactPower
             enableReactHook()
             local ball = _G._VxRBall; local hrp = _G._VxRHRP
             if ball and hrp then
